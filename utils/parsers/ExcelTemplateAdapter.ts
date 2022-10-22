@@ -1,4 +1,4 @@
-import { UITypes } from 'nocodb-sdk'
+import { UITypes } from '~/nocodb-sdk'
 import TemplateGenerator from './TemplateGenerator'
 import { getCheckboxValue, isCheckboxType } from './parserHelpers'
 import { getDateFormat } from '~/utils'

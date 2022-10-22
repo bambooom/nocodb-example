@@ -1,5 +1,5 @@
-import { RelationTypes, UITypes } from 'nocodb-sdk'
-import type { ColumnType, LinkToAnotherRecordType, TableInfoType, TableType } from 'nocodb-sdk'
+import { RelationTypes, UITypes } from '~/nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType, TableInfoType, TableType } from '~/nocodb-sdk'
 
 export const extractPkFromRow = (row: Record<string, any>, columns: ColumnType[]) => {
   return (

@@ -1,8 +1,8 @@
 import useVuelidate from '@vuelidate/core'
 import { helpers, minLength, required } from '@vuelidate/validators'
 import type { Ref } from 'vue'
-import type { ColumnType, FormType, LinkToAnotherRecordType, TableType, ViewType } from 'nocodb-sdk'
-import { ErrorMessages, RelationTypes, UITypes, isVirtualCol } from 'nocodb-sdk'
+import type { ColumnType, FormType, LinkToAnotherRecordType, TableType, ViewType } from '~/nocodb-sdk'
+import { ErrorMessages, RelationTypes, UITypes, isVirtualCol } from '~/nocodb-sdk'
 import { isString } from '@vueuse/core'
 import {
   SharedViewPasswordInj,

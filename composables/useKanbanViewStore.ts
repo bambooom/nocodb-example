@@ -1,5 +1,5 @@
 import type { ComputedRef, Ref } from 'vue'
-import type { Api, ColumnType, KanbanType, SelectOptionType, SelectOptionsType, TableType, ViewType } from 'nocodb-sdk'
+import type { Api, ColumnType, KanbanType, SelectOptionType, SelectOptionsType, TableType, ViewType } from '~/nocodb-sdk'
 import type { Row } from '~/lib'
 import {
   IsPublicInj,

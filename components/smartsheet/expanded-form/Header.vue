@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { message } from 'ant-design-vue'
-import type { ViewType } from 'nocodb-sdk'
+import type { ViewType } from '~/nocodb-sdk'
 import {
   ReloadRowDataHookInj,
   useExpandedFormStoreOrThrow,

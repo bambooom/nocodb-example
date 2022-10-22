@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ColumnType } from 'nocodb-sdk'
+import type { ColumnType } from '~/nocodb-sdk'
 import type { Ref } from 'vue'
 import { ColumnInj, computed, inject, toRef, useColumn } from '#imports'
 import FilePhoneIcon from '~icons/mdi/file-phone'

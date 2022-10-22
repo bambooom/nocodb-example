@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { RelationTypes, UITypes } from 'nocodb-sdk'
-import type { ColumnType, LinkToAnotherRecordType } from 'nocodb-sdk'
+import { RelationTypes, UITypes } from '~/nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType } from '~/nocodb-sdk'
 import {
   ColumnInj,
   Empty,

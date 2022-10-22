@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type { Form } from 'ant-design-vue'
-import type { ProjectType } from 'nocodb-sdk'
+import type { ProjectType } from '~/nocodb-sdk'
 import {
   extractSdkResponseErrorMsg,
   message,

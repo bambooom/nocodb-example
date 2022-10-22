@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { SelectProps } from 'ant-design-vue'
-import type { ColumnType, LinkToAnotherRecordType } from 'nocodb-sdk'
-import { RelationTypes, UITypes, isVirtualCol } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType } from '~/nocodb-sdk'
+import { RelationTypes, UITypes, isVirtualCol } from '~/nocodb-sdk'
 import { MetaInj, computed, inject, ref, resolveComponent } from '#imports'
 
 const { modelValue, isSort } = defineProps<{

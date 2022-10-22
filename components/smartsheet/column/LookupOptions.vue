@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ColumnType, LinkToAnotherRecordType } from 'nocodb-sdk'
-import { UITypes, isSystemColumn } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType } from '~/nocodb-sdk'
+import { UITypes, isSystemColumn } from '~/nocodb-sdk'
 import { MetaInj, inject, ref, useColumnCreateStoreOrThrow, useMetas, useProject, useVModel } from '#imports'
 
 const props = defineProps<{

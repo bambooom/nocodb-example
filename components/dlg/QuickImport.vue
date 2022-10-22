@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TableType } from 'nocodb-sdk'
+import type { TableType } from '~/nocodb-sdk'
 import type { UploadChangeParam, UploadFile } from 'ant-design-vue'
 import {
   ExcelTemplateAdapter,

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { RelationTypes, UITypes, isVirtualCol } from 'nocodb-sdk'
+import { RelationTypes, UITypes, isVirtualCol } from '~/nocodb-sdk'
 import { useSharedFormStoreOrThrow } from '#imports'
 
 const { sharedFormView, submitForm, v$, formState, notFound, formColumns, submitted, secondsRemain, isLoading } =

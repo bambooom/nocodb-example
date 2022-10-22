@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ColumnType, LinkToAnotherRecordType, LookupType } from 'nocodb-sdk'
-import { RelationTypes, UITypes } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType, LookupType } from '~/nocodb-sdk'
+import { RelationTypes, UITypes } from '~/nocodb-sdk'
 import type { Ref } from 'vue'
 import { ColumnInj, inject, ref, toRef } from '#imports'
 import GenericIcon from '~icons/mdi/square-rounded'

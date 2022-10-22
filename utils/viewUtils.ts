@@ -1,4 +1,4 @@
-import { ViewTypes } from 'nocodb-sdk'
+import { ViewTypes } from '~/nocodb-sdk'
 import { themeV2Colors } from '~/utils'
 
 import MdiGridIcon from '~icons/mdi/grid-large'

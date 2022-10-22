@@ -1,4 +1,4 @@
-import type { FilterType, ViewType } from 'nocodb-sdk'
+import type { FilterType, ViewType } from '~/nocodb-sdk'
 import type { ComputedRef, Ref } from 'vue'
 import {
   IsPublicInj,

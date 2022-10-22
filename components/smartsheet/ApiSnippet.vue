@@ -54,7 +54,7 @@ const langs = [
     clients: ['axios', 'fetch', 'request', 'native', 'unirest'],
   },
   {
-    name: 'nocodb-sdk',
+    name: '~/nocodb-sdk',
     clients: ['javascript', 'node'],
   },
   {
@@ -102,8 +102,8 @@ const snippet = $computed(
 const activeLang = $computed(() => langs.find((lang) => lang.name === selectedLangName))
 
 const code = $computed(() => {
-  if (activeLang?.name === 'nocodb-sdk') {
-    return `${selectedClient === 'node' ? 'const { Api } require("nocodb-sdk");' : 'import { Api } from "nocodb-sdk";'}
+  if (activeLang?.name === '~/nocodb-sdk') {
+    return `${selectedClient === 'node' ? 'const { Api } require("~/nocodb-sdk");' : 'import { Api } from "~/nocodb-sdk";'}
 const api = new Api({
   baseURL: ${JSON.stringify(apiUrl)},
   headers: {

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { ProjectType } from 'nocodb-sdk'
+import type { ProjectType } from '~/nocodb-sdk'
 import tinycolor from 'tinycolor2'
 import { breakpointsTailwind } from '@vueuse/core'
 import {

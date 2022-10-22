@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ViewTypes } from 'nocodb-sdk'
+import { ViewTypes } from '~/nocodb-sdk'
 import { useNuxtApp, useSmartsheetStoreOrThrow, viewIcons } from '#imports'
 
 interface Emits {

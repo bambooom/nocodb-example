@@ -8,8 +8,8 @@ import type {
   SortType,
   TableType,
   ViewType,
-} from 'nocodb-sdk'
-import { UITypes } from 'nocodb-sdk'
+} from '~/nocodb-sdk'
+import { UITypes } from '~/nocodb-sdk'
 import { computed, useGlobal, useMetas, useNuxtApp, useState } from '#imports'
 
 export function useSharedView() {

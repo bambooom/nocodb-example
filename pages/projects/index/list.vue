@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { ProjectType } from 'nocodb-sdk'
+import type { ProjectType } from '~/nocodb-sdk'
 import { navigateTo } from '#app'
 import MdiDeleteOutline from '~icons/mdi/delete-outline'
 import MdiEditOutline from '~icons/mdi/edit-outline'

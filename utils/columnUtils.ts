@@ -1,5 +1,5 @@
-import type { ColumnType, LinkToAnotherRecordType } from 'nocodb-sdk'
-import { RelationTypes, UITypes } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType } from '~/nocodb-sdk'
+import { RelationTypes, UITypes } from '~/nocodb-sdk'
 import LinkVariant from '~icons/mdi/link-variant'
 import TableColumnPlusBefore from '~icons/mdi/table-column-plus-before'
 import FormatColorText from '~icons/mdi/format-color-text'

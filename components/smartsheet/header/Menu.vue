@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { LinkToAnotherRecordType } from 'nocodb-sdk'
-import { UITypes } from 'nocodb-sdk'
+import type { LinkToAnotherRecordType } from '~/nocodb-sdk'
+import { UITypes } from '~/nocodb-sdk'
 import {
   ColumnInj,
   IsLockedInj,

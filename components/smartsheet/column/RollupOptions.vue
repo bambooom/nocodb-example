@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UITypes, isSystemColumn, isVirtualCol } from 'nocodb-sdk'
+import { UITypes, isSystemColumn, isVirtualCol } from '~/nocodb-sdk'
 import { MetaInj, inject, ref, useColumnCreateStoreOrThrow, useMetas, useProject, useVModel } from '#imports'
 
 const props = defineProps<{

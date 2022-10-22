@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { LinkToAnotherRecordType, TableType } from 'nocodb-sdk'
-import { UITypes } from 'nocodb-sdk'
+import type { LinkToAnotherRecordType, TableType } from '~/nocodb-sdk'
+import { UITypes } from '~/nocodb-sdk'
 import type { ERDConfig } from './utils'
 import { reactive, ref, useMetas, useProject, watch } from '#imports'
 

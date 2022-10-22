@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { ColumnType, TableType, ViewType } from 'nocodb-sdk'
-import { UITypes, isVirtualCol } from 'nocodb-sdk'
+import type { ColumnType, TableType, ViewType } from '~/nocodb-sdk'
+import { UITypes, isVirtualCol } from '~/nocodb-sdk'
 import {
   ActiveViewInj,
   CellUrlDisableOverlayInj,

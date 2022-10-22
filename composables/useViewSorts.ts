@@ -1,4 +1,4 @@
-import type { SortType, ViewType } from 'nocodb-sdk'
+import type { SortType, ViewType } from '~/nocodb-sdk'
 import type { Ref } from 'vue'
 import {
   IsPublicInj,

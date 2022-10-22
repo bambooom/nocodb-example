@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { ProjectType } from 'nocodb-sdk'
+import type { ProjectType } from '~/nocodb-sdk'
 import { navigateTo } from '#app'
 import { useColors } from '#imports'
 import MdiMenuDown from '~icons/mdi/menu-down'

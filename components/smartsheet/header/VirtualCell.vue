@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ColumnType, FormulaType, LinkToAnotherRecordType, LookupType, RollupType } from 'nocodb-sdk'
-import { substituteColumnIdWithAliasInFormula } from 'nocodb-sdk'
+import type { ColumnType, FormulaType, LinkToAnotherRecordType, LookupType, RollupType } from '~/nocodb-sdk'
+import { substituteColumnIdWithAliasInFormula } from '~/nocodb-sdk'
 import {
   ColumnInj,
   IsFormInj,

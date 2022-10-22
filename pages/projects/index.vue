@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { Modal, message } from 'ant-design-vue'
-import type { ProjectType } from 'nocodb-sdk'
+import type { ProjectType } from '~/nocodb-sdk'
 import { useI18n } from 'vue-i18n'
 import { navigateTo } from '#app'
 import { extractSdkResponseErrorMsg } from '~/utils'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TableType } from 'nocodb-sdk'
+import type { TableType } from '~/nocodb-sdk'
 import Sortable from 'sortablejs'
 import GithubButton from 'vue-github-button'
 import {

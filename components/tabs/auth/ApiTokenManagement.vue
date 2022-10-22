@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ApiTokenType } from 'nocodb-sdk'
+import type { ApiTokenType } from '~/nocodb-sdk'
 import { extractSdkResponseErrorMsg, message, onMounted, useCopy, useI18n, useNuxtApp, useProject } from '#imports'
 
 interface ApiToken extends ApiTokenType {

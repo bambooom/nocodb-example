@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RequestParams } from 'nocodb-sdk'
+import type { RequestParams } from '~/nocodb-sdk'
 import {
   extractSdkResponseErrorMsg,
   message,

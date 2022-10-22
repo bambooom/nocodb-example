@@ -1,5 +1,5 @@
-import type { ColumnType, LinkToAnotherRecordType, TableType } from 'nocodb-sdk'
-import { UITypes } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType, TableType } from '~/nocodb-sdk'
+import { UITypes } from '~/nocodb-sdk'
 import dagre from 'dagre'
 import type { Edge, EdgeMarker, Elements, Node } from '@vue-flow/core'
 import type { MaybeRef } from '@vueuse/core'

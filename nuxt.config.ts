@@ -74,7 +74,7 @@ export default defineNuxtConfig({
       rollupOptions: {
         output: {
           manualChunks(id) {
-            const chunks = ['ant-design-vue', 'nocodb-sdk', 'vue-router', 'vue-i18n']
+            const chunks = ['ant-design-vue', 'vue-router', 'vue-i18n']
             if (id.includes('/node_modules/')) {
               for (const chunkName of chunks) {
                 if (id.includes(chunkName)) {
