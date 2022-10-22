@@ -706,7 +706,7 @@ export class HttpClient<SecurityDataType = unknown> {
   }: ApiConfig<SecurityDataType> = {}) {
     this.instance = axios.create({
       ...axiosConfig,
-      baseURL: axiosConfig.baseURL || 'http://localhost:8080',
+      baseURL: axiosConfig.baseURL || 'http://localhost:3000',
     });
     this.secure = secure;
     this.format = format;
@@ -813,7 +813,7 @@ export class HttpClient<SecurityDataType = unknown> {
 /**
  * @title nocodb
  * @version 1.0
- * @baseUrl http://localhost:8080
+ * @baseUrl http://localhost:3000
  */
 export class Api<
   SecurityDataType extends unknown

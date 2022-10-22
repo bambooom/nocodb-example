@@ -680,7 +680,7 @@ export enum ContentType {
 }
 
 export class HttpClient<SecurityDataType = unknown> {
-  public baseUrl: string = 'http://localhost:8080';
+  public baseUrl: string = 'http://localhost:3000';
   private securityData: SecurityDataType | null = null;
   private securityWorker?: ApiConfig<SecurityDataType>['securityWorker'];
   private abortControllers = new Map<CancelToken, AbortController>();
@@ -872,7 +872,7 @@ export class HttpClient<SecurityDataType = unknown> {
 /**
  * @title nocodb
  * @version 1.0
- * @baseUrl http://localhost:8080
+ * @baseUrl http://localhost:3000
  */
 export class Api<
   SecurityDataType extends unknown

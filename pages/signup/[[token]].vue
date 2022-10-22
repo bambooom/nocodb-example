@@ -54,26 +54,25 @@ const formRules = {
 }
 
 async function signUp() {
-  let a = await $fetch('/api/v1/hello');
-  console.log(a);
-  // if (!formValidator.value.validate()) return
+  if (!formValidator.value.validate()) return
 
-  // resetError()
+  resetError()
 
-  // const data: any = {
-  //   ...form,
-  //   token: route.params.token,
-  // }
+  const data: any = {
+    ...form,
+    token: route.params.token,
+  }
 
-  // data.ignore_subscribe = !subscribe.value
+  data.ignore_subscribe = !subscribe.value
 
-  // api.auth.signup(data).then(async ({ token }) => {
-  //   signIn(token!)
+  api.auth.signup(data).then(async ({ token }) => {
+    console.log(token);
+    signIn(token!)
 
-  //   await navigateTo('/')
+    await navigateTo('/')
 
-  //   $e('a:auth:sign-up')
-  // })
+    $e('a:auth:sign-up')
+  })
 }
 
 function resetError() {
