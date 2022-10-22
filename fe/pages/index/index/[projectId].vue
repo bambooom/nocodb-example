@@ -1,0 +1,114 @@
+<script lang="ts" setup>
+import type { Form } from 'ant-design-vue'
+import type { ProjectType } from 'nocodb-sdk'
+import {
+  extractSdkResponseErrorMsg,
+  message,
+  navigateTo,
+  projectTitleValidator,
+  reactive,
+  ref,
+  tryOnMounted,
+  useProject,
+  useRoute,
+} from '#imports'
+
+const route = useRoute()
+
+const { project, loadProject, updateProject, isLoading, projectLoadedHook } = useProject()
+
+loadProject(false)
+
+const nameValidationRules = [
+  {
+    required: true,
+    message: 'Project name is required',
+  },
+  projectTitleValidator,
+]
+
+const form = ref<typeof Form>()
+
+const formState = reactive<Partial<ProjectType>>({
+  title: '',
+})
+
+const renameProject = async () => {
+  try {
+    await updateProject(formState)
+
+    navigateTo(`/nc/${route.params.projectId}`)
+  } catch (e: any) {
+    message.error(await extractSdkResponseErrorMsg(e))
+  }
+}
+
+// select and focus title field on load
+projectLoadedHook(async () => {
+  formState.title = project.value.title as string
+
+  tryOnMounted(() => {
+    // todo: replace setTimeout and follow better approach
+    setTimeout(() => {
+      const input = form.value?.$el?.querySelector('input[type=text]')
+
+      input.focus()
+
+      input.setSelectionRange(0, formState.title?.length)
+    }, 150)
+  })
+})
+</script>
+
+<template>
+  <div
+    class="update-project relative flex-auto flex flex-col justify-center gap-2 p-8 md:(bg-white rounded-lg border-1 border-gray-200 shadow)"
+  >
+    <LazyGeneralNocoIcon class="color-transition hover:(ring ring-accent)" :animate="isLoading" />
+
+    <div
+      class="color-transition transform group absolute top-5 left-5 text-4xl rounded-full cursor-pointer"
+      @click="navigateTo('/')"
+    >
+      <MdiChevronLeft class="text-black group-hover:(text-accent scale-110)" />
+    </div>
+
+    <h1 class="prose-2xl font-bold self-center my-4">{{ $t('activity.editProject') }}</h1>
+
+    <a-skeleton v-if="isLoading" />
+
+    <a-form
+      v-else
+      ref="form"
+      :model="formState"
+      name="basic"
+      layout="vertical"
+      class="lg:max-w-3/4 w-full !mx-auto"
+      no-style
+      autocomplete="off"
+      @finish="renameProject"
+    >
+      <a-form-item :label="$t('labels.projName')" name="title" :rules="nameValidationRules">
+        <a-input v-model:value="formState.title" name="title" class="nc-metadb-project-name" />
+      </a-form-item>
+
+      <div class="text-center">
+        <button v-e="['a:project:edit:rename']" type="submit" class="scaling-btn bg-opacity-100">
+          <span class="flex items-center gap-2">
+            <MaterialSymbolsRocketLaunchOutline />
+            {{ $t('general.edit') }}
+          </span>
+        </button>
+      </div>
+    </a-form>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.update-project {
+  .ant-input-affix-wrapper,
+  .ant-input {
+    @apply !appearance-none my-1 border-1 border-solid border-primary border-opacity-50 rounded;
+  }
+}
+</style>
