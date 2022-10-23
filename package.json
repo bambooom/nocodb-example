@@ -2,8 +2,7 @@
   "private": true,
   "web-types": "web-types.json",
   "scripts": {
-    "build": "prisma generate && nuxi build",
-    "vercel-build": "prisma generate && nuxi build",
+    "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
@@ -17,7 +16,6 @@
   },
   "dependencies": {
     "@ckpack/vue-color": "^1.2.0",
-    "@prisma/client": "^4.5.0",
     "@vue-flow/additional-components": "^1.1.0",
     "@vue-flow/core": "^1.1.3",
     "@vuelidate/core": "^2.0.0-alpha.44",
@@ -88,7 +86,6 @@
     "nuxt": "^3.0.0-rc.11",
     "nuxt-windicss": "^2.5.0",
     "prettier": "^2.7.1",
-    "prisma": "^4.5.0",
     "sass": "^1.53.0",
     "unplugin-icons": "^0.14.7",
     "unplugin-vue-components": "^0.22.4",
