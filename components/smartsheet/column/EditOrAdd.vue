@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { UITypes, isVirtualCol } from '~/nocodb-sdk'
+import { UITypes, isVirtualCol } from 'nocodb-sdk'
 import {
   IsFormInj,
   IsKanbanInj,

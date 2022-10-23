@@ -1,4 +1,4 @@
-import type { Api } from '~/nocodb-sdk'
+import type { Api } from 'nocodb-sdk'
 import type { Actions } from '~/composables/useGlobal/types'
 import { defineNuxtRouteMiddleware, message, navigateTo, useApi, useGlobal, useRoles } from '#imports'
 

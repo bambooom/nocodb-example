@@ -1,4 +1,4 @@
-import type { FilterType, ViewTypes } from '~/nocodb-sdk'
+import type { FilterType, ViewTypes } from 'nocodb-sdk'
 import type { I18n } from 'vue-i18n'
 import type { Theme as AntTheme } from 'ant-design-vue/es/config-provider'
 import type { ProjectRole, Role, TabType } from './enums'

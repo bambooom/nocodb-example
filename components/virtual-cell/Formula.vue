@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { ColumnType } from '~/nocodb-sdk'
+import type { ColumnType } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import { CellValueInj, ColumnInj, computed, handleTZ, inject, ref, replaceUrlsWithLink, useProject } from '#imports'
 

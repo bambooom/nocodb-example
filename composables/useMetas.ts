@@ -1,6 +1,6 @@
 import { message } from 'ant-design-vue'
 import type { WatchStopHandle } from 'vue'
-import type { TableInfoType, TableType } from '~/nocodb-sdk'
+import type { TableInfoType, TableType } from 'nocodb-sdk'
 import { extractSdkResponseErrorMsg, useNuxtApp, useProject, useState, watch } from '#imports'
 
 export function useMetas() {

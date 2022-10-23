@@ -1,4 +1,4 @@
-import type { Api } from '~/nocodb-sdk'
+import type { Api } from 'nocodb-sdk'
 import { navigateTo, useGlobal, useRoute, useRouter } from '#imports'
 
 const DbNotFoundMsg = 'Database config not found'

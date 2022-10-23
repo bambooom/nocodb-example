@@ -1,4 +1,4 @@
-import type { ColumnType, GridColumnType, GridType, ViewType } from '~/nocodb-sdk'
+import type { ColumnType, GridColumnType, GridType, ViewType } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import { IsPublicInj, computed, inject, ref, useMetas, useNuxtApp, useStyleTag, useUIPermission, watch } from '#imports'
 

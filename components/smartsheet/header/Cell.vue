@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ColumnType } from '~/nocodb-sdk'
+import type { ColumnType } from 'nocodb-sdk'
 import { ColumnInj, IsFormInj, IsKanbanInj, inject, provide, ref, toRef, useUIPermission } from '#imports'
 
 const props = defineProps<{ column: ColumnType & { meta: any }; required?: boolean | number; hideMenu?: boolean }>()

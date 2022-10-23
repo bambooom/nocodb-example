@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { ColumnType, LinkToAnotherRecordType, LookupType } from '~/nocodb-sdk'
-import { RelationTypes, UITypes, isVirtualCol } from '~/nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType, LookupType } from 'nocodb-sdk'
+import { RelationTypes, UITypes, isVirtualCol } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import {
   CellUrlDisableOverlayInj,

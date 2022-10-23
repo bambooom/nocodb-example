@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Draggable from 'vuedraggable'
-import { RelationTypes, UITypes, ViewTypes, getSystemColumns, isVirtualCol } from '~/nocodb-sdk'
+import { RelationTypes, UITypes, ViewTypes, getSystemColumns, isVirtualCol } from 'nocodb-sdk'
 import {
   ActiveViewInj,
   IsFormInj,

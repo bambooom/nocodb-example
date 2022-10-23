@@ -1,5 +1,5 @@
 import type { MaybeRef } from '@vueuse/core'
-import { UITypes } from '~/nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 import { message, reactive, unref, useCopy, useEventListener, useI18n } from '#imports'
 
 interface SelectedBlock {

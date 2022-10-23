@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Ref } from 'vue'
-import type { AuditType } from '~/nocodb-sdk'
+import type { AuditType } from 'nocodb-sdk'
 import {
   Form,
   MetaInj,

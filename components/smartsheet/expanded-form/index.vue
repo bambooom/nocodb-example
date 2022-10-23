@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { TableType, ViewType } from '~/nocodb-sdk'
-import { UITypes, isSystemColumn, isVirtualCol } from '~/nocodb-sdk'
+import type { TableType, ViewType } from 'nocodb-sdk'
+import { UITypes, isSystemColumn, isVirtualCol } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import {
   FieldsInj,

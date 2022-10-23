@@ -1,5 +1,5 @@
-import type { LinkToAnotherRecordType, TableType } from '~/nocodb-sdk'
-import { UITypes } from '~/nocodb-sdk'
+import type { LinkToAnotherRecordType, TableType } from 'nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 import {
   Modal,
   SYSTEM_COLUMNS,

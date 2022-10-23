@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ColumnType, TableType } from '~/nocodb-sdk'
+import type { ColumnType, TableType } from 'nocodb-sdk'
 import {
   ActiveViewInj,
   FieldsInj,

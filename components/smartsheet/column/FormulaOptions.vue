@@ -2,8 +2,8 @@
 import type { Ref } from 'vue'
 import type { ListItem as AntListItem } from 'ant-design-vue'
 import jsep from 'jsep'
-import type { ColumnType } from '~/nocodb-sdk'
-import { UITypes, jsepCurlyHook } from '~/nocodb-sdk'
+import type { ColumnType } from 'nocodb-sdk'
+import { UITypes, jsepCurlyHook } from 'nocodb-sdk'
 import {
   MetaInj,
   NcAutocompleteTree,

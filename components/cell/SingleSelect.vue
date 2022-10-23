@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import tinycolor from 'tinycolor2'
 import type { Select as AntSelect } from 'ant-design-vue'
-import type { SelectOptionType } from '~/nocodb-sdk'
+import type { SelectOptionType } from 'nocodb-sdk'
 import { ActiveCellInj, ColumnInj, IsKanbanInj, ReadonlyInj, computed, inject, ref, useEventListener, watch } from '#imports'
 
 interface Props {

@@ -1,5 +1,5 @@
-import { UITypes, ViewTypes } from '~/nocodb-sdk'
-import type { ColumnType, TableType } from '~/nocodb-sdk'
+import { UITypes, ViewTypes } from 'nocodb-sdk'
+import type { ColumnType, TableType } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import dayjs from 'dayjs'
 import {

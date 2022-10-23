@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { UITypes } from '~/nocodb-sdk'
-import type { KanbanType } from '~/nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
+import type { KanbanType } from 'nocodb-sdk'
 import type { SelectProps } from 'ant-design-vue'
 import {
   ActiveViewInj,

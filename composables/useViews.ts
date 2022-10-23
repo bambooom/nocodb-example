@@ -1,4 +1,4 @@
-import type { TableType, ViewType } from '~/nocodb-sdk'
+import type { TableType, ViewType } from 'nocodb-sdk'
 import type { MaybeRef } from '@vueuse/core'
 import { ref, unref, useNuxtApp, watch } from '#imports'
 

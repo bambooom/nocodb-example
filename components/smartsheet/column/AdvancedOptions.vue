@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UITypes } from '~/nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 import { computed, useColumnCreateStoreOrThrow, useProject, useVModel } from '#imports'
 
 const props = defineProps<{

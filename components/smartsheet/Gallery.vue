@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ViewTypes, isVirtualCol } from '~/nocodb-sdk'
+import { ViewTypes, isVirtualCol } from 'nocodb-sdk'
 import {
   ActiveViewInj,
   ChangePageInj,

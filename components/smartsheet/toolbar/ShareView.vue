@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ViewTypes } from '~/nocodb-sdk'
+import { ViewTypes } from 'nocodb-sdk'
 import { isString } from '@vueuse/core'
 import tinycolor from 'tinycolor2'
 import {

@@ -1,5 +1,5 @@
-import type { ColumnType } from '~/nocodb-sdk'
-import { SqlUiFactory, UITypes, isVirtualCol } from '~/nocodb-sdk'
+import type { ColumnType } from 'nocodb-sdk'
+import { SqlUiFactory, UITypes, isVirtualCol } from 'nocodb-sdk'
 import type { ComputedRef, Ref } from 'vue'
 import { computed, useProject } from '#imports'
 

@@ -1,4 +1,4 @@
-import { UITypes } from '~/nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 
 export const getSortDirectionOptions = (uidt: UITypes) => {
   switch (uidt) {

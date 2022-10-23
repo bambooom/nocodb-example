@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import type { NodeProps } from '@vue-flow/core'
 import { Handle, Position, useVueFlow } from '@vue-flow/core'
-import type { LinkToAnotherRecordType } from '~/nocodb-sdk'
-import { UITypes, isVirtualCol } from '~/nocodb-sdk'
+import type { LinkToAnotherRecordType } from 'nocodb-sdk'
+import { UITypes, isVirtualCol } from 'nocodb-sdk'
 import type { NodeData } from './utils'
 import { MetaInj, computed, provide, refAutoReset, toRef, useNuxtApp, watch } from '#imports'
 

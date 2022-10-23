@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { validatePassword } from '~/nocodb-sdk'
+import { validatePassword } from 'nocodb-sdk'
 import { definePageMeta, isEmail, navigateTo, reactive, ref, useApi, useGlobal, useI18n, useNuxtApp, useRoute } from '#imports'
 
 definePageMeta({

@@ -1,6 +1,6 @@
 import clone from 'just-clone'
-import type { ColumnType, TableType } from '~/nocodb-sdk'
-import { UITypes } from '~/nocodb-sdk'
+import type { ColumnType, TableType } from 'nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import {
   Form,

@@ -1,5 +1,5 @@
-import { ViewTypes } from '~/nocodb-sdk'
-import type { FilterType, KanbanType, SortType, TableType, ViewType } from '~/nocodb-sdk'
+import { ViewTypes } from 'nocodb-sdk'
+import type { FilterType, KanbanType, SortType, TableType, ViewType } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import { computed, reactive, ref, unref, useInjectionState, useNuxtApp, useProject, useTemplateRefsList } from '#imports'
 

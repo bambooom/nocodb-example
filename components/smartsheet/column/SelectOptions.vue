@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Draggable from 'vuedraggable'
-import { UITypes } from '~/nocodb-sdk'
+import { UITypes } from 'nocodb-sdk'
 import { IsKanbanInj, enumColor, onMounted, useColumnCreateStoreOrThrow, useVModel, watch } from '#imports'
 
 const props = defineProps<{

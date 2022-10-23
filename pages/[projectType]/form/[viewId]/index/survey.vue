@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { ColumnType, LinkToAnotherRecordType } from '~/nocodb-sdk'
-import { RelationTypes, UITypes, isVirtualCol } from '~/nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType } from 'nocodb-sdk'
+import { RelationTypes, UITypes, isVirtualCol } from 'nocodb-sdk'
 import { SwipeDirection, breakpointsTailwind } from '@vueuse/core'
 import {
   DropZoneRef,

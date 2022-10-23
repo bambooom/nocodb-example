@@ -1,5 +1,5 @@
-import { RelationTypes, UITypes } from '~/nocodb-sdk'
-import type { ColumnType, LinkToAnotherRecordType, TableType } from '~/nocodb-sdk'
+import { RelationTypes, UITypes } from 'nocodb-sdk'
+import type { ColumnType, LinkToAnotherRecordType, TableType } from 'nocodb-sdk'
 import type { Ref } from 'vue'
 import type { MaybeRef } from '@vueuse/core'
 import {

@@ -2,8 +2,8 @@
 import type { ComponentPublicInstance } from '@vue/runtime-core'
 import type { Form as AntForm, SelectProps } from 'ant-design-vue'
 import { capitalize } from '@vue/runtime-core'
-import type { FormType, GalleryType, GridType, KanbanType, TableType, ViewType } from '~/nocodb-sdk'
-import { UITypes, ViewTypes } from '~/nocodb-sdk'
+import type { FormType, GalleryType, GridType, KanbanType, TableType, ViewType } from 'nocodb-sdk'
+import { UITypes, ViewTypes } from 'nocodb-sdk'
 import {
   computed,
   generateUniqueTitle,

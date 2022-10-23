@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { KanbanType, ViewType, ViewTypes } from '~/nocodb-sdk'
+import type { KanbanType, ViewType, ViewTypes } from 'nocodb-sdk'
 import type { WritableComputedRef } from '@vue/reactivity'
 import {
   IsLockedInj,

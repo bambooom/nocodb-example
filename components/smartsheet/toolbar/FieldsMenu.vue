@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ColumnType, GalleryType, KanbanType } from '~/nocodb-sdk'
-import { UITypes, ViewTypes, isVirtualCol } from '~/nocodb-sdk'
+import type { ColumnType, GalleryType, KanbanType } from 'nocodb-sdk'
+import { UITypes, ViewTypes, isVirtualCol } from 'nocodb-sdk'
 import Draggable from 'vuedraggable'
 import type { SelectProps } from 'ant-design-vue'
 import {
