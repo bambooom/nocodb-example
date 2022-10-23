@@ -1,3 +1,5 @@
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbambooom%2Fnocodb-example&project-name=nocodb-tidb-starter&repo-name=nocodb-example&demo-title=TiDB+NocoDB+Starter&demo-description=A+NocoDB+instance+using+TiDB+as+scalable+DB&demo-url=https%3A%2F%2Fnocodb-example.vercel.app%2F&integration-ids=oac_coKBVWCXNjJnCEth1zzKoF1j)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
