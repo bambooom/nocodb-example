@@ -66,9 +66,8 @@ async function signUp() {
   data.ignore_subscribe = !subscribe.value
 
   api.auth.signup(data).then(async ({ token }) => {
-    console.log(token);
     signIn(token!)
-
+    console.log('going to redirect');
     await navigateTo('/')
 
     $e('a:auth:sign-up')

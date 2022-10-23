@@ -9,10 +9,8 @@ export function useGlobalActions(state: State): Actions {
   }
 
   /** Sign in by setting the token in localStorage */
-  const signIn: Actions['signIn'] = async (newToken) => {
-    // @fix: a real example token
-    newToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5tejg5ODI1QGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6bnVsbCwibGFzdG5hbWUiOm51bGwsImlkIjoidXNfcnlpY3Z4MnVkeHNqaW8iLCJyb2xlcyI6ImNyZWF0b3IiLCJ0b2tlbl92ZXJzaW9uIjoiY2U0NzJiYzVmYzYyYTVmNDg4OGU1OGFiNGQ1M2RlYzAzZTRkMmU3NmVhMzk1NjJiNDA2ODI0ZWQwMTM5OGRhY2M0NmUzZDliMWUxMGUyYTgiLCJpYXQiOjE2NjY0NTYwNTgsImV4cCI6MTY2NjQ5MjA1OH0.t55j8LTw9L3zUAks2aSzcR6sDVf3oAwI_rH3_jfRLes"
-    state.token.value = newToken
+  const signIn: Actions['signIn'] = async (token) => {
+    state.token.value = token
 
     if (state.jwtPayload.value) {
       state.user.value = {
